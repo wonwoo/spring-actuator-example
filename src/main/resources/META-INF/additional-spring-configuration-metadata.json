@@ -1,0 +1,9 @@
+{"properties": [
+  {
+    "name": "endpoints.hello.enabled",
+    "type": "java.lang.Boolean",
+    "description": "Enable all endpoints by default.",
+    "defaultValue": true
+  }
+]}
+
