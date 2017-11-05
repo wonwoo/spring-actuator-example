@@ -1,9 +1,15 @@
-{"properties": [
-  {
-    "name": "endpoints.hello.enabled",
-    "type": "java.lang.Boolean",
-    "description": "Enable all endpoints by default.",
-    "defaultValue": true
+{
+  "properties": [
+    {
+      "name": "endpoints.hello.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enable all endpoints by default.",
+      "defaultValue": true
+    },
+    {
+      "name": "management.health.github.enabled",
+      "type": "java.lang.String",
+      "description": "Description for management.health.github.enabled."
   }
 ]}
 
