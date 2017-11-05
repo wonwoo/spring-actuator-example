@@ -9,7 +9,8 @@
     {
       "name": "management.health.github.enabled",
       "type": "java.lang.String",
-      "description": "Description for management.health.github.enabled."
+      "description": "Description for management.health.github.enabled.",
+      "defaultValue": true
   }
 ]}
 
