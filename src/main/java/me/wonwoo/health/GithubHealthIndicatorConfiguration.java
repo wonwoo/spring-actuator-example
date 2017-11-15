@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.Map;
 
 @Configuration
-@ConditionalOnClass(RestTemplate.class)
+@ConditionalOnClass(name = "org.springframework.web.client.RestTemplate")
 @ConditionalOnBean(RestTemplate.class)
 @ConditionalOnEnabledHealthIndicator("github")
 @AutoConfigureBefore(HealthIndicatorAutoConfiguration.class)
